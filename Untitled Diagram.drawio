@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Page-1" id="C_2sJpbAXKAQj0tT3wZg">
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-1" value="User" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="180" y="372" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-2" value="&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;id&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;username&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;email&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;role&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="oZDm_FxVeJ7oWiIXzgK5-1">
+          <mxGeometry x="20" y="50" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-3" value="Field (Master data)" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="460" y="362" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-4" value="&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;id&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;field_region&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;latitude&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;longitude&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;crop_type&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;area&lt;br&gt;user_id&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="oZDm_FxVeJ7oWiIXzgK5-3">
+          <mxGeometry x="15" y="20" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-5" value="quality_inspection" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="355" y="572" width="145" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-6" value="&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;id&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;user_id&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;field_id&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;potato_variety&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;inspection_date&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;ml_model_output&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;image_group_id&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;timestamp&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="oZDm_FxVeJ7oWiIXzgK5-5">
+          <mxGeometry x="12.5" y="30" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-7" value="Scouting" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="680" y="570" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-8" value="&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;id&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;user_id&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;field_id&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;scouting_date&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;observations&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;ml_model_output&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;image_group_id&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;timestamp&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="oZDm_FxVeJ7oWiIXzgK5-7">
+          <mxGeometry y="20" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.373;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oZDm_FxVeJ7oWiIXzgK5-1" target="oZDm_FxVeJ7oWiIXzgK5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oZDm_FxVeJ7oWiIXzgK5-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="652" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="645" />
+              <mxPoint x="500" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-11" value="THIS IS YET TO BE CONFIRMED" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="620" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oZDm_FxVeJ7oWiIXzgK5-13" target="oZDm_FxVeJ7oWiIXzgK5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-13" value="Pest" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="310" y="170" width="130" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oZDm_FxVeJ7oWiIXzgK5-13" source="oZDm_FxVeJ7oWiIXzgK5-15" target="oZDm_FxVeJ7oWiIXzgK5-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="20" />
+              <mxPoint x="55" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-15" value="&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;id&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;user_id&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;field_id&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pest_inspection_date&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;ml_model_output&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;image_group_id&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;timestamp&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="oZDm_FxVeJ7oWiIXzgK5-13">
+          <mxGeometry x="-10" y="30" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.355;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oZDm_FxVeJ7oWiIXzgK5-1" target="oZDm_FxVeJ7oWiIXzgK5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-17" value="High level entity relation based&amp;nbsp;&lt;div&gt;on current understanding&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-18" value="need to add image entity" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="940" y="18" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-19" value="Master data details needs&lt;br&gt;&amp;nbsp;to be confirmed by business" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="300" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-21" value="Cold Storage (Master)" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="630" y="360" width="150" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-22" value="&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;id&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;field_region&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;latitude&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;longitude&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;crop_type&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;area&lt;br&gt;user_id&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="oZDm_FxVeJ7oWiIXzgK5-21">
+          <mxGeometry x="30" y="22" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-24" value="Production Plants(Master)" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="810" y="360" width="160" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-25" value="&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;id&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;field_region&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;latitude&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;longitude&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;crop_type&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;area&lt;br&gt;user_id&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="oZDm_FxVeJ7oWiIXzgK5-24">
+          <mxGeometry x="30" y="22" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oZDm_FxVeJ7oWiIXzgK5-26" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="440" as="sourcePoint" />
+            <mxPoint x="630" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
